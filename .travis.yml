@@ -1,6 +1,24 @@
 language: node_js
 node_js:
   - 12
+dist: trusty
+sudo: required
+
+branches:
+  only:
+  - master
+
+before_script:
+  - npm install -g @angular/cli
+
 script:
   - eslint 'src/**'
   - npm run test:coveralls
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 79a601dd1cf64082e959204b45da2d38a5a372ba
+  local_dir: dist/centralcob-web
+  on:
+    branch: master
