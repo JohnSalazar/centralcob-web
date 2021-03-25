@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/JohnSalazar/centralcob-web.svg?branch=master)](https://travis-ci.com/JohnSalazar/centralcob-web)
+[![Coverage Status](https://coveralls.io/repos/github/JohnSalazar/centralcob-web/badge.svg?branch=master)](https://coveralls.io/github/JohnSalazar/centralcob-web?branch=master)
+[![Known Vulnerabilities](https://snyk.io/test/github/JohnSalazar/centralcob-web/badge.svg)](https://snyk.io/test/github/JohnSalazar/centralcob-web)
 # CentralcobWeb
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
