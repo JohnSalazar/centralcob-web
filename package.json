@@ -9,7 +9,7 @@
     "start": "ng serve",
     "build": "ng build",
     "prod": "ng build --prod=true",
-    "lint": "ng lint --fix",
+    "lint": "ng lint",
     "lint:fix": "ng lint --fix",
     "up": "ng build && docker-compose up -d",
     "down": "docker-compose down",
